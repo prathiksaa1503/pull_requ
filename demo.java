@@ -1,14 +1,14 @@
 class demo
 {
-String a;
+String b;
 demo()
 {
-a="prathi";
-System.out.println("constructor is called");
+b="prathi";
+System.out.println(" the constructor is called");
 }
 public static void main(String args[])
 {
 demo myobj=new demo();
-System.out.println("value of a:"+myobj.a);
+System.out.println("value of b:"+myobj.b);
 }
 }
